@@ -12,9 +12,8 @@
 		<integer>1</integer>
 		<key>symbolTransformation</key>
 		<string>
-		s/class\s+([A-Za-z_][A-Za-z0-9_]*.+?\)?)(\:|$)/$1/g;
-		s/def\s+([A-Za-z_][A-Za-z0-9_]*\()(?:(.{,40}?\))|((.{40}).+?\)))(\:)/$1(?2:$2)(?3:$4…\))/g;
-	</string>
+			s/\s*(class|def)\s+([A-Za-z_][A-Za-z0-9_]*).*/$2/;
+		</string>
 	</dict>
 	<key>uuid</key>
 	<string>005BE156-8D74-4036-AF38-283708645115</string>
