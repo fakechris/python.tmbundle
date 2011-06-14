@@ -20,5 +20,5 @@
 ((ViMap insertMap) map:")" to:"<right><right>" scope:"source.python meta.function.python punctuation.definition.parameters.end.python")
 
 ; Move to EOL and Insert ':' + LF
-; ((ViMap insertMap) map:"<shift-cmd-cr>" to:"<esc>A:<esc>o" scope:"source.python")
+((ViMap insertMap) map:"<shift-cmd-cr>" to:"<esc>A:<esc>o" scope:"source.python")
 
