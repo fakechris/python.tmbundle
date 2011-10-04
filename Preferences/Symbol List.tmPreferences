@@ -5,14 +5,14 @@
 	<key>name</key>
 	<string>Symbol List</string>
 	<key>scope</key>
-	<string>source.python meta.function.python, source.python meta.class.python</string>
+	<string>source.python meta.function.python, source.python meta.class.python, source.python meta.class.old-style.python</string>
 	<key>settings</key>
 	<dict>
 		<key>showInSymbolList</key>
 		<integer>1</integer>
 		<key>symbolTransformation</key>
 		<string>
-			s/\s*(class|def)\s+([A-Za-z_][A-Za-z0-9_]*).*/$2/;
+			s/\s*(class|(def))\s+([A-Za-z_][A-Za-z0-9_]*).*/(?2: )$3/;
 		</string>
 	</dict>
 	<key>uuid</key>
