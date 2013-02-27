@@ -1,0 +1,4 @@
+manual deploy
+
+cp Snippets/* ~/Library/Application\ Support/Vico/Bundles/vicoapp-python.tmbundle/Snippets/
+

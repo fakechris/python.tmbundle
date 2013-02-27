@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>gflags.DEFINE_boolean('$1', ${2:False}, "$3")</string>
+	<key>name</key>
+	<string>gflags define boolean</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>gbool</string>
+	<key>uuid</key>
+	<string>1BBE1C85-C581-473D-BCE5-98292408FEA2</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>gflags.DEFINE_string('$1', '$2', "$3")</string>
+	<key>name</key>
+	<string>gflags define string</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>gstr</string>
+	<key>uuid</key>
+	<string>490E6BBD-0075-4BA7-BC5B-B26D5796D956</string>
+</dict>
+</plist>
